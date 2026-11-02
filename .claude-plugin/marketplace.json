@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "grabli",
+  "description": "Командная память ошибок окружения для Claude Code: хук ловит упавшие команды, агент записывает решение в .grabli/ репозитория, и в следующий раз подсказка приходит сама.",
+  "owner": {
+    "name": "shardness",
+    "url": "https://github.com/shardnessS"
+  },
+  "plugins": [
+    {
+      "name": "grabli",
+      "source": "./",
+      "description": "Командная память ошибок окружения для Claude Code: хук ловит упавшие команды, агент записывает решение в .grabli/ репозитория, и в следующий раз подсказка приходит сама.",
+      "category": "development"
+    }
+  ]
+}

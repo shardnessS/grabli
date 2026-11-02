@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 344" width="760" height="344" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <rect x="0.5" y="0.5" width="759" height="343" rx="14" fill="#FFFFFF" stroke="#D0D7DE"/>
+
+  <text x="28" y="40" font-size="11" letter-spacing="1.2" fill="#57606A">СЕССИЯ ОЛИ · LINUX · ЧЕРЕЗ МЕСЯЦ ПОСЛЕ ДИМЫ</text>
+  <text x="28" y="68" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#24292F">$ ./gradlew bootRun</text>
+  <text x="28" y="92" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#CF222E">Caused by: org.postgresql.util.PSQLException: Connection to 127.0.0.1:5432 refused.</text>
+
+  <line x1="28" y1="114" x2="732" y2="114" stroke="#D8DEE4"/>
+
+  <text x="28" y="142" font-size="11" letter-spacing="1.2" font-weight="600" fill="#7A3218">ГРАБЛИ · ИЗВЕСТНАЯ ОШИБКА</text>
+  <text x="28" y="170" font-size="17" font-weight="600" fill="#24292F">Postgres из docker-compose не запущен</text>
+  <text x="28" y="194" font-size="13" fill="#57606A">.grabli/postgres-not-running.md · отпечаток 4f63b1dc · записал Дима 2 ноября</text>
+  <text x="28" y="224" font-size="14" fill="#24292F">Причина: приложение стартует раньше базы, контейнер db не запущен.</text>
+  <rect x="28" y="240" width="236" height="32" rx="6" fill="#F6F8FA" stroke="#D0D7DE"/>
+  <text x="42" y="261" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#24292F">docker compose up -d db</text>
+
+  <line x1="28" y1="294" x2="732" y2="294" stroke="#D8DEE4"/>
+  <text x="28" y="322" font-size="13" fill="#57606A">Агент Оли применил решение команды с первой попытки. Отпечаток совпал, хотя хост, пути и версия драйвера другие.</text>
+</svg>

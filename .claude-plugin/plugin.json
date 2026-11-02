@@ -1,0 +1,24 @@
+{
+  "name": "grabli",
+  "displayName": "Грабли",
+  "version": "0.1.0",
+  "description": "Командная память ошибок окружения для Claude Code: хук ловит упавшие команды, агент записывает решение в .grabli/ репозитория, и в следующий раз подсказка приходит сама.",
+  "author": {
+    "name": "shardness",
+    "url": "https://github.com/shardnessS"
+  },
+  "homepage": "https://github.com/shardnessS/grabli",
+  "repository": "https://github.com/shardnessS/grabli",
+  "license": "MIT",
+  "icon": "./assets/icon.svg",
+  "keywords": [
+    "hooks",
+    "errors",
+    "environment",
+    "team-memory",
+    "developer-tools",
+    "known-issues",
+    "грабли",
+    "ошибки окружения"
+  ]
+}

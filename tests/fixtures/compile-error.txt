@@ -1,0 +1,16 @@
+$ ./gradlew compileJava
+> Task :compileJava FAILED
+/Users/dima/work/shop-api/src/main/java/ru/shop/api/order/OrderService.java:41: error: cannot find symbol
+        return repository.findAllByStatus(status);
+                         ^
+  symbol:   method findAllByStatus(OrderStatus)
+  location: variable repository of type OrderRepository
+1 error
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+BUILD FAILED in 2s

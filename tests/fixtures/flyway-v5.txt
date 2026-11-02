@@ -1,0 +1,13 @@
+$ ./gradlew bootRun
+2026-10-19T14:55:03.300+03:00 ERROR 9001 --- [shop-api] [           main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Validate failed: Migrations have failed validation
+Migration checksum mismatch for migration version 5
+-> Applied to database : 88213790
+-> Resolved locally    : 1977320455
+Either revert the changes to the migration, or run repair to update the schema history.
+Caused by: org.flywaydb.core.api.exception.FlywayValidateException: Validate failed: Migrations have failed validation
+Migration checksum mismatch for migration version 5
+	at org.flywaydb.core.Flyway.lambda$migrate$0(Flyway.java:171) ~[flyway-core-10.11.0.jar:na]
+
+BUILD FAILED in 8s

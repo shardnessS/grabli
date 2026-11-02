@@ -1,0 +1,8 @@
+$ ./mvnw -q -pl billing verify
+[ERROR] Failed to execute goal on project billing: Could not resolve dependencies for project ru.shop:billing:jar:1.4.0-SNAPSHOT: Failed to collect dependencies at ru.shop.lib:common:jar:2.3.1: Failed to read artifact descriptor for ru.shop.lib:common:jar:2.3.1: The following artifacts could not be resolved: ru.shop.lib:common:pom:2.3.1 (absent): Could not transfer artifact ru.shop.lib:common:pom:2.3.1 from/to nexus (https://nexus.shop.local/repository/maven-public/): PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target -> [Help 1]
+[ERROR]
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR]
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException

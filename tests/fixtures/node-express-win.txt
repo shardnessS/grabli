@@ -1,0 +1,19 @@
+$ npm run dev
+
+> shop-web@0.1.0 dev
+> node server.js
+
+node:internal/modules/cjs/loader:1252
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- C:\Users\olya\code\shop-web\server.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ 'C:\\Users\\olya\\code\\shop-web\\server.js' ]
+}
+
+Node.js v22.9.0

@@ -1,0 +1,21 @@
+$ ./gradlew test
+> Task :test
+
+OrderRepositoryIT > initializationError FAILED
+    java.lang.IllegalStateException at DockerClientProviderStrategy.java:274
+
+PaymentRepositoryIT > initializationError FAILED
+    java.lang.IllegalStateException at DockerClientProviderStrategy.java:274
+
+17:02:09.551 [Test worker] ERROR org.testcontainers.dockerclient.DockerClientProviderStrategy -- Could not find a valid Docker environment. Please check configuration. Attempted configurations were:
+	UnixSocketClientProviderStrategy: failed with exception InvalidConfigurationException (Could not find unix domain socket). Root cause NoSuchFileException (/var/run/docker.sock)
+
+42 tests completed, 2 failed
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':test'.
+> There were failing tests. See the report at: file:///Users/dima/projects/shop/build/reports/tests/test/index.html
+
+BUILD FAILED in 1m 3s

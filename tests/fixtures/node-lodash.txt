@@ -1,0 +1,13 @@
+$ npm run dev
+
+> shop-web@0.1.0 dev
+> node server.js
+
+Error: Cannot find module 'lodash'
+Require stack:
+- /Users/dima/work/shop-web/lib/util.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1225:15) {
+  code: 'MODULE_NOT_FOUND'
+}
+
+Node.js v20.11.1

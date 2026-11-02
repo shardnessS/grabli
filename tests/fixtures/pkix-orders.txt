@@ -1,0 +1,4 @@
+$ mvn -pl orders -am package -DskipTests
+[ERROR] Failed to execute goal on project orders: Could not resolve dependencies for project ru.shop:orders:jar:0.9.2: Failed to collect dependencies at ru.shop.lib:events:jar:1.1.0: Failed to read artifact descriptor for ru.shop.lib:events:jar:1.1.0: The following artifacts could not be resolved: ru.shop.lib:events:pom:1.1.0 (absent): Could not transfer artifact ru.shop.lib:events:pom:1.1.0 from/to nexus (https://nexus.shop.local/repository/maven-releases/): PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target -> [Help 1]
+[ERROR]
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
