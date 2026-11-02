@@ -15,5 +15,5 @@
   <text x="42" y="261" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#24292F">docker compose up -d db</text>
 
   <line x1="28" y1="294" x2="732" y2="294" stroke="#D8DEE4"/>
-  <text x="28" y="322" font-size="13" fill="#57606A">Агент Оли применил решение команды с первой попытки. Отпечаток совпал, хотя хост, пути и версия драйвера другие.</text>
+  <text x="28" y="322" font-size="13" fill="#57606A">Хост, пути и версия драйвера другие, а отпечаток тот же. Агент Оли починил с первой попытки.</text>
 </svg>
